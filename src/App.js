@@ -4,7 +4,6 @@ import Header from "./head";
 import Card from "./card-block";
 import CartItem from './CartItem';
 import { useState } from 'react';
-import Sidebar from './sidebar';
 function App() {
   const [products,setProduct] = useState([
     {
@@ -48,8 +47,6 @@ function App() {
 
   return (
     <>
-    <Sidebar>
-    </Sidebar>
       <Header></Header>
       <div className="container" style={{ marginTop: '70px' }}>
         <div className="row">
